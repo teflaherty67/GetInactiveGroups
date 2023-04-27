@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command GetInactiveGroups</Text>
+    <Description>Some description for GetInactiveGroups</Description>
+    <Assembly>GetInactiveGroups.dll</Assembly>
+    <FullClassName>GetInactiveGroups.Command</FullClassName>
+    <ClientId>6e1549f8-207e-4e9b-a89a-946571a9fcd2</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application GetInactiveGroups</Name>
+    <Assembly>GetInactiveGroups.dll</Assembly>
+    <FullClassName>GetInactiveGroups.App</FullClassName>
+    <ClientId>2a14893e-451c-4fa7-b814-2b77560aaf0e</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
